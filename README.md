@@ -16,7 +16,7 @@
 安装后建议完整保留这 6 个文件夹：
 
 - `daihuo-ai-employees`：总控员工，负责把完整任务拆成选品、货源、平台、内容、复盘。
-- `daihuo-product-selection`：选品数据员工，负责数据依据、商品评分、利润/佣金、退货风险和是否值得测。
+- `daihuo-product-selection`：爆款拆解选品员工，先拆爆款短视频/账号，再提取商品机会、判断是否值得测。
 - `daihuo-supply-channels`：货源渠道员工，负责判断从巨量百应、快分销、蒲公英、猿推推、自有供应链等哪里上货。
 - `daihuo-platform-playbooks`：平台路径员工，负责抖音、快手、小红书的带货入口、打法差异和适配判断。
 - `daihuo-content-conversion`：内容转化员工，负责短视频脚本、直播话术、评论回复和合规表达。
