@@ -13,6 +13,8 @@ description: Data-driven ecommerce product selection for short-video and live-co
 
 先判断“值不值得卖”，再写内容。没有数据依据时，必须标记证据缺口，不能只凭感觉推荐商品。
 
+差异化和反差是选品前置指标。优先选择用户一眼能感知“哪里不一样”的商品机会；没有明显反差的商品，不建议作为短视频主推爆品，只能作为跟卖、货架或直播补充品。
+
 ## 工作流程
 
 1. 先收集爆款样本：数据好的短视频、账号、直播间，优先看低粉高爆、近期增长、评论有购买意图、挂车商品重复出现的样本。
@@ -29,6 +31,7 @@ description: Data-driven ecommerce product selection for short-video and live-co
 - 评分和证据口径：`references/selection-framework.md`
 - 数据来源清单：`references/data-sources.md`
 - 爆款短视频/账号拆解：`references/viral-teardown.md`
+- 差异化/反差选品：`references/differentiation-selection.md`
 - 女装/男装/童装专项判断：`references/apparel-selection.md`
 - 商品输入和输出模板：`references/templates.md`
 
