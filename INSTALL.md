@@ -1,17 +1,24 @@
-# 带货 AI 员工 Skill 安装说明
+# 带货 AI 员工 Skill Pack 安装说明
 
-这个包用于把“带货 AI 员工”分享给其他 Codex App 用户。
+这个包用于把“带货 AI 员工团队”分享给其他 Codex App 用户。
 
 ## 包内容
 
 ```text
 daihuo-ai-employees/
-  SKILL.md
-  agents/openai.yaml
-  references/
-    compliance.md
-    role-playbooks.md
-    templates.md
+daihuo-product-selection/
+daihuo-supply-channels/
+daihuo-platform-playbooks/
+daihuo-content-conversion/
+daihuo-growth-review/
+```
+
+每个文件夹都是一个独立 skill，包含：
+
+```text
+SKILL.md
+agents/openai.yaml
+references/
 ```
 
 ## 安装方式一：全局安装
@@ -21,35 +28,35 @@ daihuo-ai-employees/
 Windows:
 
 ```text
-C:\Users\<你的用户名>\.codex\skills\daihuo-ai-employees
+C:\Users\<你的用户名>\.codex\skills\
 ```
 
 macOS/Linux:
 
 ```text
-~/.codex/skills/daihuo-ai-employees
+~/.codex/skills/
 ```
 
-把压缩包里的 `daihuo-ai-employees` 文件夹完整放进去，然后重启 Codex App。
+把本仓库里的 6 个 `daihuo-*` 文件夹完整放进去，然后重启 Codex App。
 
 ## 安装方式二：项目安装
 
 适合团队共享一个项目仓库。
 
-把 `daihuo-ai-employees` 文件夹放到项目根目录：
+把 6 个 `daihuo-*` 文件夹放到项目根目录：
 
 ```text
-项目根目录/.agents/skills/daihuo-ai-employees
+项目根目录/.agents/skills/
 ```
 
 然后重新打开这个项目或重启 Codex App。
 
 ## 使用方式
 
-在 Codex 里输入：
+完整方案：
 
 ```text
-请使用带货 AI 员工，为下面商品生成今天可执行的带货运营包。
+请使用带货 AI 员工总控，为下面商品做一套从选品、货源、平台、内容到复盘的落地方案。
 
 商品名：
 类目：
@@ -59,31 +66,39 @@ macOS/Linux:
 库存：
 发货地：
 物流时效：
-目标平台：抖音/快手/小红书/直播/多平台
+可选货源渠道：
+目标平台：
 目标人群：
 核心卖点：
 证明材料：
+竞品或参考账号：
+已有数据：
 风险点：
 售后政策：
-今日目标：测品/起号/直播成交/复购/清库存
+今日目标：
 ```
+
+单独使用：
+
+- `请作为带货选品数据员工...`
+- `请作为带货货源渠道员工...`
+- `请作为平台带货路径员工...`
+- `请作为带货内容转化员工...`
+- `请作为带货复盘增长员工...`
 
 ## 触发关键词
 
-以下说法都能触发：
+以下说法都能触发对应岗位：
 
-- 带货 AI 员工
-- 选品分析
-- 短视频脚本
-- 直播话术
-- 评论回复
-- 小红书种草文案
-- 抖音/快手带货内容
-- 商品卖点拆解
-- 带货复盘
+- 带货 AI 员工、完整带货方案、带货员工团队
+- 选品、测品、爆品判断、数据依据、佣金分析、退货风险
+- 从哪里上货、猿推推、巨量百应、精选联盟、快分销、蒲公英、达人带货小程序
+- 抖音带货路径、快手带货路径、小红书带货路径、平台适配
+- 短视频脚本、直播话术、评论回复、小红书种草、口播、分镜
+- 播放量、完播率、点击率、GMV、退货率、复盘、下一轮优化
 
 ## 分发建议
 
-最简单：直接发 ZIP。
+最简单：直接发 GitHub 链接，让别人复制 6 个 `daihuo-*` 文件夹到自己的 `.codex/skills`。
 
-更适合团队：放到 Git 仓库，让团队成员把 `daihuo-ai-employees` 文件夹复制到自己的 `.codex/skills`，或者把它作为项目的 `.agents/skills` 一起提交。
+团队使用：把 6 个 skill 文件夹作为项目的 `.agents/skills` 一起提交，让团队成员打开项目就能用同一套带货员工。

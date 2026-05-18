@@ -1,4 +1,4 @@
 interface:
-  display_name: "带货 AI 员工"
-  short_description: "为抖音、快手、小红书带货生成选品、脚本、直播、评论和复盘方案。"
-  default_prompt: "请使用带货 AI 员工，为这个商品生成今天可执行的带货运营包。"
+  display_name: "带货 AI 员工总控"
+  short_description: "调度选品、货源、平台、内容和复盘多个带货员工。"
+  default_prompt: "请使用带货 AI 员工总控，帮我从选品到内容和复盘完整处理这个带货任务。"

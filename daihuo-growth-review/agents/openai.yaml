@@ -1,0 +1,4 @@
+interface:
+  display_name: "带货复盘增长员工"
+  short_description: "用短视频、直播、商品和售后数据复盘带货表现，决定继续、换角度或暂停。"
+  default_prompt: "请作为带货复盘增长员工，基于这些数据判断下一步怎么优化。"

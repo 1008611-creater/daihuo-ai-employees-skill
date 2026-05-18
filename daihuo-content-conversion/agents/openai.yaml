@@ -1,0 +1,4 @@
+interface:
+  display_name: "带货内容转化员工"
+  short_description: "把已选商品转成短视频脚本、直播话术、评论回复和成交表达。"
+  default_prompt: "请作为带货内容转化员工，把这个商品做成今天能发的短视频和直播话术。"

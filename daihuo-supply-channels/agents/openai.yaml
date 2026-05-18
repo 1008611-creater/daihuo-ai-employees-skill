@@ -1,0 +1,4 @@
+interface:
+  display_name: "带货货源渠道员工"
+  short_description: "评估猿推推、巨量百应、快分销、小红书蒲公英等货源和分销渠道。"
+  default_prompt: "请作为带货货源渠道员工，判断这个商品应该从哪里上货和带货。"

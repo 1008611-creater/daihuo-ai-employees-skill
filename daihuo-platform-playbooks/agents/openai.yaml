@@ -1,0 +1,4 @@
+interface:
+  display_name: "平台带货路径员工"
+  short_description: "沉淀抖音、快手、小红书不同平台的带货入口、选品路径和运营差异。"
+  default_prompt: "请作为平台带货路径员工，判断这个商品适合在哪个平台、怎么上架和怎么带。"

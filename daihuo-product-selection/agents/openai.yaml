@@ -1,0 +1,4 @@
+interface:
+  display_name: "带货选品数据员工"
+  short_description: "基于数据证据、平台适配、利润和风险判断商品是否值得带。"
+  default_prompt: "请作为带货选品数据员工，基于这些商品和数据做选品判断。"
