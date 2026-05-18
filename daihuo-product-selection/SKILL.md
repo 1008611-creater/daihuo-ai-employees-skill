@@ -29,6 +29,7 @@ description: Data-driven ecommerce product selection for short-video and live-co
 - 评分和证据口径：`references/selection-framework.md`
 - 数据来源清单：`references/data-sources.md`
 - 爆款短视频/账号拆解：`references/viral-teardown.md`
+- 女装/男装/童装专项判断：`references/apparel-selection.md`
 - 商品输入和输出模板：`references/templates.md`
 
 ## 输出要求
