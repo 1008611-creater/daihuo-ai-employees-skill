@@ -33,6 +33,7 @@ description: Data-driven ecommerce product selection for short-video and live-co
 - 爆款短视频/账号拆解：`references/viral-teardown.md`
 - 差异化/反差选品：`references/differentiation-selection.md`
 - 女装/男装/童装专项判断：`references/apparel-selection.md`
+- 视觉种草/舞蹈穿搭服装判断：`references/visual-clothing-selection.md`
 - 商品输入和输出模板：`references/templates.md`
 
 ## 输出要求
